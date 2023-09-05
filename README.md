@@ -5,11 +5,11 @@ I started the Makers bootcamp on the 4th of September. I will be tracking my lea
 <h2>My Goals:</h2>
 
 <h3>I can make anything:</h3>
-- I can TDD anything
-- I can program fluently
-- I can debug anything
-- I can model anything
-- I can refactor anything
+- I can TDD anything;
+- I can program fluently;
+- I can debug anything;
+- I can model anything;
+- I can refactor anything;
 - I have a methodical approach to solving problems
 
 <h3>I help my teams succeed:</h3>
