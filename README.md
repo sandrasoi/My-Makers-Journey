@@ -1,8 +1,8 @@
-My Makers Journey
+<h1>My Makers Journey</h1>
 
 I started the Makers bootcamp on the 4th of September. I will be tracking my learning journey and progress here.
 
-<h2>My Goals:</h2>>
+<h2>My Goals:</h2>
 
 I can make anything:
 I can TDD anything
