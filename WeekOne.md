@@ -20,4 +20,4 @@ I completed a challenge to test my knowledge and reflect on what I have learned 
 <h3>Wednesday 6th Septemer</h3>
 I learned about the basics of Python. Firstly, I learned how to use REPL to execute Python in the terminal. Then I learned about functions, methods, indexing to find specific strings based on their string position, for and while loops and if-else statements. This was mostly a recap for me as I have learned about these basics before. I also learned how to execute python files from the terminal using the command 'python3 <file_name.py>' and I also used pipenv to test my code using the command 'pipenv run pytest -x'.
 
-To test ny knowledge, I completed a simple challenge to validate a password by using if statements to check its length and whether it contains certain characters > [https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/password_validator.py](password_validator.py)
+To test my knowledge, I completed a simple challenge to validate a password by using if statements to check its length and whether it contains certain characters by making a [password_validator program].
