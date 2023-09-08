@@ -25,6 +25,5 @@ I learned about the basics of Python. Firstly, I learned how to use REPL to exec
 To test my knowledge, I completed a simple [password validator program](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/password_validator.py) to validate a password by using if statements to check its length and whether it contains certain characters.
 
 <h3>Thursday 7th Septemer</h3>
-I learned about dictionaries and classes. I tested my knowledge by completing drills and validating them using the pipenv. I am getting more confident with using the command line and understanding how a virtual environment works. 
 
-[drills](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/_1_lists_and_dictionaries.py)
+I learned about dictionaries and classes. I tested my knowledge by completing [drills](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/_1_lists_and_dictionaries.py) and validating them using the pipenv. I am getting more confident with using the command line and understanding how a virtual environment works. 
