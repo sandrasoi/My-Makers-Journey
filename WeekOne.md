@@ -27,3 +27,7 @@ To test my knowledge, I completed a simple [password validator program](https://
 <h3>Thursday 7th Septemer</h3>
 
 I learned about dictionaries and classes. I tested my knowledge by completing [drills](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/_1_lists_and_dictionaries.py) and validating them using the pipenv. I am getting more confident with using the command line and understanding how a virtual environment works. 
+
+<h3>Friday 8th Septemer</h3>
+
+Today I completed a drill exercise focused on Classes. I then completed a program challenge. This challenge included putting into practise what I learned about classes to create a [password manager program](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/password_manager.py). I focused on completing the program challenge. Within my class, I added several methods: one that added a password and service to a dictionary if the password was valid; another that returned the password when a service was entered; and last one that listed the names of all the services in the dictionary. 
