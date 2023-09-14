@@ -13,4 +13,9 @@ I also learned about different data structures, specifically when using dictiona
 
 <h3>Tuesday 12th September</h3>
 
+I started completing drills and reviewing lesson material to implement list comprehensions, filter, map and lambda functions. 
+I learned that all objects in Python are part of a class and that some methods we call to an object are coded into their class such as .upper(). This helped me make sense of classes better.
 
+<h3>Wednesday 13th September</h3>
+
+I am continuing to completed drills to solidify my understanding of list comprehensions, filter, map and lambda functions. I also participated in a wellbeing session on feedback. It focused on reframing the perception of feedback to being a source of information, neither good nor bad. I also learned about communication stances and to take a kind approach when giving feedback. I also started doing codewars katas with my peers. This has been a great opportunity to do something fun and to compare different approaches each of us have to solving a problem. 
