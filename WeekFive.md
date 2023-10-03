@@ -8,3 +8,11 @@
 - Explain how your program communicates with the database by creating a sequence diagram.
 
 <h3>Monday 2nd October</h3>
+
+Today I learned about SQL which is a language that lets us query, create or modify data stored in a database. Up until now, the programs we created only exitst in the memory so it is not good if data needs to be stored for a long time.
+
+I set up PostgresSQL which is a rational database software to learn about databases and SQL. I learned simple commands to retrieve, update, delete and insert data to a database. I also set up TablePlus which is a Graphical User Interface which allows me to see the database much easier than my using psql to return values in a database.
+
+I am continuing to pair-program and today I worked on short SQL exercises to practise SQL and reinforce my understanding. 
+
+<h3>Tuesday 3rd October</h3>
