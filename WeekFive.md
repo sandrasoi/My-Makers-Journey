@@ -16,3 +16,5 @@ I set up PostgresSQL which is a rational database software to learn about databa
 I am continuing to pair-program and today I worked on short SQL exercises to practise SQL and reinforce my understanding. 
 
 <h3>Tuesday 3rd October</h3>
+
+I learned how to connect to a database, and what model and repository classes are. I completed a [test-driving challenge](https://github.com/sandrasoi/book_store) where I created a book class and a book repository class to retrieve data from the book store database. This solidified my understanding of various concepts such how to connect to the database and how to use SQL to retrieve data. 
