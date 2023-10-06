@@ -29,7 +29,7 @@ Once I completed my design, I created a database by writing 'createdb <database_
 
 <h3>Thursday 5th October</h3>
 
-I practised using the design recipe today, creating a new database and adding a table to it. I test-drove a single recipes table by creating a model and repository class that contained a couple of methods. This program showed all the recipes within the table and allowed a specific recipe to be extracted. 
+I practised using the design recipe today, creating a new database and adding a table to it. I test-drove a single [recipes table](https://github.com/sandrasoi/recipe_directory/tree/main) by creating a model and repository class that contained a couple of methods. This program showed all the recipes within the table and allowed a specific recipe to be extracted. 
 
 <h3>Friday 6th October</h3>
 
