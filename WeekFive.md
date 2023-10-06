@@ -18,3 +18,18 @@ I am continuing to pair-program and today I worked on short SQL exercises to pra
 <h3>Tuesday 3rd October</h3>
 
 I learned how to connect to a database, and what model and repository classes are. I completed a [test-driving challenge](https://github.com/sandrasoi/book_store) where I created a book class and a book repository class to retrieve data from the book store database. This solidified my understanding of various concepts such how to connect to the database and how to use SQL to retrieve data. 
+
+<h3>Wednesday 4th October</h3>
+
+I learned to create a [sequence diagram](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/databases/sequence%20diagram%20book%20store.svg) for my book_store program using diagram.codes which helps to create a diagram for programs. This visual representation of the program and the system within which it sits, really helped me understand how the classes interact with the database_connection file and the database to request and receive information. Diagrams are really useful as they are easier to digest, enable people to see how the different components of an app are working and make it easier to see how different components interact with each other. 
+
+I learned to use a recipe template to design a single table based on user stories. I first extracted the nouns, then inferred the table name and columns, decided column types, write SQL that creates the table and write the command that creates the table in the database. 
+
+Once I completed my design, I created a database by writing 'createdb <database_name>' in the terminal, then I copied the SQL code into a file which allowed me to create a table into the newly formed database by writing psql -h 127.0.0.1 student_directory_1 < students_table.sql. 
+
+<h3>Thursday 5th October</h3>
+
+I practised using the design recipe today, creating a new database and adding a table to it. I test-drove a single recipes table by creating a model and repository class that contained a couple of methods. This program showed all the recipes within the table and allowed a specific recipe to be extracted. 
+
+<h3>Friday 6th October</h3>
+
