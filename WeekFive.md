@@ -33,3 +33,9 @@ I practised using the design recipe today, creating a new database and adding a 
 
 <h3>Friday 6th October</h3>
 
+I designed a [blog](https://github.com/sandrasoi/blog) program that contains two tables. I learned how to figure out the relationship between the two tables, posts and comments. I had an issue where two appearing identical objects were different. After debugging, I figured out that the data type of one of the data types was different. This was because I added it to the table incorrectly. 
+
+I added a create and delete method to my Album Repository class.
+
+
+This was a very good module where I learned how to design database schema and create the database using SQL, use SQL to query a database, how to integrate a database to a program by test-driving model and repository classes, and create a diagram for a program to understand the interactions between classes and the database. 
