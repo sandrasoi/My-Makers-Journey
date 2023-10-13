@@ -5,7 +5,7 @@
 - Explain how HTTP requests and responses work at a high level
 - Write integration tests for a web application
 - Implement web routes using a lightweight web framework
-- Follow a debugging process for a web applicatio
+- Follow a debugging process for a web application
 
 <h3>Monday 9th October</h3>
 
@@ -17,13 +17,16 @@ I am using Flask which is a Python library that creates a web server which allow
 
 I put together what I learned yesterday to test-drive routes that interact with a database. This adds another layer to the complexity of the program and builds on yesterday's exercises. When a client sends a HTTP request to the flask application, the flask application will call a method in the repository class which will send a SQL query to the database. The result is returned to the repository class, which returns the value to the flask application which then sends a HTTP response to the client.
 
-The program I created was a music_web_app that used a POST /albums route to add an album and a GET /albums route to see all the albums.
+The program I created was a [music_web_app](https://github.com/sandrasoi/music_web_app) that used a POST /albums route to add an album and a GET /albums route to see all the albums.
 
 <h3>Wednesday 11th October</h3>
 
+Today I attended a workshop on communication. It was very interesting to learn about four different types of communicators and identify differences in their strengths, how they would want to be supported and how best to communicate with them. The four different types were: dominance (D), influence (i), steadiness (S), and conscientiousness (C) and were based on how much someone was stable or inspirational, and challenging or collaborative. 
+
+
 <h3>Thursday 12th October</h3>
 
-I learned about using HTML to build webpages. I learned to use render_templates python code to allow the wepages that I have created to be displayed in a browser. HTML is inherently static but through the use of jinja templates within HTML, we can replace the jinja tags with the information we want. 
+I learned about using HTML to build webpages. I learned to use render_templates python code to allow the webpages that I have created to be displayed in a browser. HTML is inherently static but through the use of jinja templates within HTML, we can replace the jinja tags with the information we want. 
 
 So far we have been requesting different pages based on what HTML request is sent to the browser, however, we don't want the user to send a HTML request each time they want to change the page, to avoid that, we can create links and when a user clicks it, a HTML request is sent and another page loads. 
 
