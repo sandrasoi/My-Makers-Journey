@@ -20,3 +20,13 @@ I put together what I learned yesterday to test-drive routes that interact with 
 The program I created was a music_web_app that used a POST /albums route to add an album and a GET /albums route to see all the albums.
 
 <h3>Wednesday 11th October</h3>
+
+<h3>Thursday 12th October</h3>
+
+I learned about using HTML to build webpages. I learned to use render_templates python code to allow the wepages that I have created to be displayed in a browser. HTML is inherently static but through the use of jinja templates within HTML, we can replace the jinja tags with the information we want. 
+
+So far we have been requesting different pages based on what HTML request is sent to the browser, however, we don't want the user to send a HTML request each time they want to change the page, to avoid that, we can create links and when a user clicks it, a HTML request is sent and another page loads. 
+
+I created [music_web_app_html](https://github.com/sandrasoi/music_web_app_html) project where I test-drove app.py to have routes that display all artists and albums when a GET request is sent. I made each artist and album a link which allows the user to click them. Once they are clicked, a get request is sent to get specific details about the album or artist and a new page is rendered. In order to retrieve the information to be displayed, the route function, requests a class respository method which then requests information from the database. Then this information is returned and displayed. I really enjoyed this project, especially learning how to select text based on the HTML tags and being able to create links that return certain pages. 
+
+
