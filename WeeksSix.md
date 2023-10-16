@@ -32,4 +32,10 @@ So far we have been requesting different pages based on what HTML request is sen
 
 I created [music_web_app_html](https://github.com/sandrasoi/music_web_app_html) project where I test-drove app.py to have routes that display all artists and albums when a GET request is sent. I made each artist and album a link which allows the user to click them. Once they are clicked, a get request is sent to get specific details about the album or artist and a new page is rendered. In order to retrieve the information to be displayed, the route function, requests a class respository method which then requests information from the database. Then this information is returned and displayed. I really enjoyed this project, especially learning how to select text based on the HTML tags and being able to create links that return certain pages. 
 
+<h3>Friday 13th October</h3>
+
+To finish this project, I learned how to create forms, how to test-drive them and how to make sure the information entered is valid and entered to the database. 
+
+I really enjoyed this module as it gave me a chance to build on my understanding of databases and learn how to create a web application. I found this module challenging as there were a lot of components that came together to make this application work. It really helped me to have an overview of what is happening within the program and to take everything one step at a time to not get overwhelmed. 
+
 
