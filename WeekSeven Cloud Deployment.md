@@ -18,8 +18,12 @@ The way data is sent through the Internet can be explained using the Internet Pr
 
 Today I tested my understanding and reviewed the concepts I covered yesterday such as ping, traceroute, telnet, termshark, Internet Protocol stack and IP addresses. 
 
-I delved deeper into understanding how domain name system works to translate domain names into IP addresses. I used nslookup tool to check the IP addresses of specific domains. There are two domain name system records, A records and CNAME records. A records provide IP addressed directly, CNAME records refer to another domain and then use that domains IP address. 
+I delved deeper into understanding how domain name system works to translate domain names into IP addresses. I used nslookup tool to check the IP addresses of specific domains. There are d domain name system records, A records and CNAME records. A records provide IP addressed directly, CNAME records refer to another domain and then use that domains IP address. 
 
 I learned about what has been told to maintain security of data across the Internet. When the Internet was first created, any information could have been intercepted. This problem was solved in 1979 using a Public-Key Cryptography. Public and private keys would be created. The public key would be provided to encode information and the private key would not be sent anywhere but used to decode the information. 
 
 I learned about the rise of cloud computing and why it's preferred over using physical servers. Cloud allows scalability and removes the need to maintain servers. 
+
+<h3>Friday 18th October</h3>
+
+All throughout this week, in order to help us learn these concepts, a few people from our cohort presented lightning talks on a new topic they learned. This was extremely useful as it presented information in a different format and it helped me review my understanding of difficult concepts. Today, it was my turn to present. I found it difficult to make sense of how the different exoframe files allow the application and database to be deployed. As a result I decided to do my talk on the key requirements of the application exoframe file, the database exoframe file and the database connection file. I created diagrams that helped me visualise how everything fits together. Something that I realised is that I need to specify the port that the application we be ran on and this is important so that the flask application can listen to the requests sent on that specific port. 
