@@ -28,3 +28,14 @@ The other issue we had was that when we were running a test to see whether all t
 We checked in with the other pair to make sure they were also on track. They were in charge of creating the registering and login page. They were not sure how to test-drive navigating from the login page to the registering page. I offered to help with this as this is something I have covered before and was more familiar with the concepts. 
 
 This marked the end of sprint 1 and we completed the retro in our team. We had positive reflections as we learned a lot about how to use git to make changes and merge them to the main branch. We practised pair programming more which is very valuable as it means there are two sets of eyes on a piece of work and issues can be spotted and fixed quicker. 
+
+<h3>Thursday 26th October</h3>
+
+Date filter
+
+<h3>Friday 27th October</h3>
+
+The last day was spent polishing off our code such as making styling changes and making sure everything is working smoothly. We needed to change the page that a user was directed to after they logged in. We wanted them to be directed to the listings page and to include their username at the top of the page. This proved to be more challenging than expected as it was difficult to save the username and display it on the page. We researched how to save the username and fixed this issue. We then realised when a post request is sent, the username information is lost and we needed to find a new one way to save this information. We found a way to pass a hidden post request that would save the username and display it again. 
+
+I was really happy with how everything came together on the final day. This was a really good opportunity to put into practise everything I learned throughout the course. I learned a lot about how to use git when working on a project with other people. Despite initial challenges of everyone trying to push their code to the main branch, I learned good practises of creating a new branch and merging to the main branch. It was also a really good opportunity to use agile methodology to achieve our goal. It helped us to keep on track and reflect on our progress. We worked really well collaboratively and asked for support from each other when we were stuck. Some changes we decided on were swapping who we were paired with when we identified that there were gaps in knowledge of specific topics in one pair but not the other; we also were better at breaking down the user story into tasks by creating diagrams and thinking about the problem on a deeper level.
+
