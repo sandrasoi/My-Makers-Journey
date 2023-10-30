@@ -1,0 +1,23 @@
+<h1>Week9</h1>
+
+<h2>Goals:</h2>
+
+By the end of the week, the goal is to be able to answer "yes" to the week's primary questions:
+
+Containerisation
+
+Can you explain the basics of how Docker works? In particular:
+What a Docker container is
+What a Docker image is
+What containers are useful for
+What a Dockerfile is used for
+What Docker Hub is used for
+Can you use Docker to containerise a simple web app?
+Using the Cloud
+
+Can you illustrate a deployment process using a diagram?
+Can you follow an effective process for learning to use a new Cloud service?
+Can you deploy a containerised web app to AWS?
+Can you gain visibility into your deployed application using logging and telemetry?
+
+<h3>Monday 30th October</h3>
