@@ -26,3 +26,6 @@ Today I reviewed the process of setting up a flask application and deploying it 
 I learned some new commands such as 'docker ps' to see active running containers and also learned how to stop a container from running using 'docker stop' followed by container name. I figured out how to see the folder outside of the docker container as I wanted to see whether the files were being saved. I entered the docker terminal using 'docker exec -it <name of container> /bin/bash' command and the listing the files using 'ls' to see the folder. 
 
 It was a challenging start to the module but it was a really good opportunity to review and improve my understanding of docker.
+
+<h3>Tuesday 31st October</h3>
+
