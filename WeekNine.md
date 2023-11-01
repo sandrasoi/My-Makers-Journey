@@ -29,3 +29,13 @@ It was a challenging start to the module but it was a really good opportunity to
 
 <h3>Tuesday 31st October</h3>
 
+Today we created an EC2 instance which is a virtual machine in the cloud provided by Amazon Web Services. Once I created a pem key to access my instance, I connected to the instance using my local machine using ssh that contained the path to my pem key and the details to get to the ec2 instance including its IP address. 
+I also had to set permissions using chmode 0600 on the pem key file before it could be used. 
+
+My task was then to research and learn how to transfer the containerised image from the local machine to the instance. I used ChatGPT a lot to help me figure this out. The steps were quite simple once I understood what was happening. I had to first encapsulate the image into a tarball file and then 
+ssh -i /Users/sandrasoinska/Downloads/flask-app-sandra.pem ec2-user@51.20.136.172   
+chmode 6600
+
+transfer from local host to instance 
+
+My task was then to research how to transfer my set up our flask application on EC2 
