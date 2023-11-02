@@ -7,7 +7,7 @@
 - Learn to use agile ceremonies to organise your work and improve your processes.
 - Learn to use the developer workflow to plan, implement and peer-review features.
 
-<h3>Monday 24th October</h3>
+<h3>Monday 23th October</h3>
 
 Today we met in our project groups, and discussed the project requirements. Our project is to create a BnB website that allows a user to register, book a space, and list a space. This will put into practise everything we have learned in the course so far. We took the time to create user stories based on the project specification, break down the stories into smaller, actionable tickets and divided ourselves into pairs to work on the specific tickets during one sprint to achieve a minimal viable product. 
 
@@ -15,7 +15,7 @@ My pair and I agreed to work on creating a page that displays all the existing l
 
 The biggest challenge today was using git. We made a mistake where we all edited the main branch of the repository we were working on. This caused a lot of issues as it meant we all had a slightly different initial repository. It took us some time to learn about rebasing so that everyone had the same main branch. 
 
-<h3>Tuesday 25th October</h3>
+<h3>Tuesday 24th October</h3>
 
 Today we had a stand up and discussed the progress we made in each pair. We had trouble understanding how to make sure we don't have any issues when we merge to the main branch after working off a side branch to implement some changes. We tested our understanding by pushing the changes my pair and I made to the remote and then making a pull request to merge to the main branch. Then the other pair, reviewed our code and we were able to merge to the main branch. The other pair had to pull the changes so that they were working with the latest changes.
 
@@ -29,9 +29,14 @@ We checked in with the other pair to make sure they were also on track. They wer
 
 This marked the end of sprint 1 and we completed the retro in our team. We had positive reflections as we learned a lot about how to use git to make changes and merge them to the main branch. We practised pair programming more which is very valuable as it means there are two sets of eyes on a piece of work and issues can be spotted and fixed quicker. 
 
+<h3>Wednesday 25th October</h3>
+
+
 <h3>Thursday 26th October</h3>
 
-Date filter
+Today we focused on creating a date filter on the listings page. This would allow a user to select dates and only listings that are available during those dates would be displayed. My pair and I thought about this challenge independently as it was a difficult to visualise what needed to happen. My pair came up with an idea to splice the dates that are needed and use that to display dates. This sounded more complicated to the idea I came up with so we tried my idea to see if it would work. I figured out that the dates requested have to be greater than the first date the listing is available and less than the last date the listing is available. As simple as it sounds, we tested this using a terminal to make sure this was working as intended. Once we tested this, we were able to implement it into our code.
+
+The next challenge came when we needed to match the date input to the date output from the database. As we came across a similar problem earlier, we were quickly able to resolve it. This problem was slightly different as the date input we used was slightly different to earlier and as a result the format of the date was different. This required slight change to code to make it work. 
 
 <h3>Friday 27th October</h3>
 
