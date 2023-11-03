@@ -31,6 +31,7 @@ This marked the end of sprint 1 and we completed the retro in our team. We had p
 
 <h3>Wednesday 25th October</h3>
 
+Today we started with a stand up where we reviewed our user stories and agreed what needs to be completed next. For my pair and I, it was to add the ability for a user to add a listing and for a user to displayed listings by date. We needed each listing to belong to a user in order to implement later features. This is not something we realised when planning and it meant we had to adjust our listing model and repository class to include a user as a property. As the other pair created the user table, we had to figure out how to link them together. We tested everything worked and that a user can add a listing on the page. We put a placeholder of user one for any listings that were added as we did not implement the ability to retrieve the user who was logged in on the page. 
 
 <h3>Thursday 26th October</h3>
 
