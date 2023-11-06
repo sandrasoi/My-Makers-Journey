@@ -46,4 +46,10 @@ Then I set up the application and environment within Beanstalk and uploaded the 
 
 Today I reviewed a lot of conecepts I learned this week such as connecting to ec2 instance using ssh, using elastic beanstalk to create a new application, environment and deploy my containerised application.
 
-I focused on learning how to deploy an application using AWS command line interface. I learned to using eb init to create an application and then db create to create the environment. I also used ECR to create a respository for my docker image. I then attempted to deploy my application, however, this was not successful. I suspect it's because Elastic Beanstalk doesn't know where to retrieve the image from. 
+I focused on learning how to deploy an application using AWS command line interface. I learned to using eb init to create an application and then db create to create the environment. I also used ECR to create a respository for my docker image. I then attempted to deploy my application using eb deploy, however, this was not successful. I suspect it's because Elastic Beanstalk doesn't know where to retrieve the image from. 
+
+<h3>Friday 3rd November</h3>
+
+Today was spent further reviewing what I learned this week. We did a diagram in our peer group to explain the process of deploying an application in Beanstalk which helped our understanding of the concepts. 
+
+After further investigations, I learned that the 'eb deploy' command extracts the json file from the directory it is in. However, the reason this didn't work for me despite being in that directory is because I did not use the correct format to name the json file and I needed to change the architecture of the environment to Arm. I was then able to deploy the application from the command line.  
