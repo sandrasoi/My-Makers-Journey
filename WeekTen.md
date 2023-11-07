@@ -4,6 +4,16 @@
 
 By the end of the week, the goal is to be able to answer "yes" to the week's primary questions:
 
+CI-CD
+
+Can you illustrate your CI-CD pipeline using a diagram?
+Can you work as part of a team to build your own CI-CD solution using Jenkins?
+Can you work as part of a team to deploy a static website on AWS using your own CI-CD solution?
+Can you follow an effective process for learning to use new DevOps tooling and Cloud services?
+Serverless
+
+Can you work as part of a team to add a basic Serverless backend to your website?
+
 <h3>Monday 6th November</h3>
 
 This week is focused on learning about continuous integration and continuous deployment. Today I set up S3 on AWS which is an object storage service. I had to change the bucket policy to enable public access to this storage. This enabled me to upload a static webpage and view it online. 
