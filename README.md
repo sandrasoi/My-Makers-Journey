@@ -2,7 +2,7 @@
 
 I started the Makers bootcamp on the 4th of September. I will be tracking my learning journey and progress here.
 
-<h2>My Goals during the Software Foundation course (Week 1 to Week 7):</h2>
+<h2>My Goals during the Software Foundation course (Week 1 to Week 8):</h2>
 
 <h3>I can make anything:</h3>
 - I can TDD anything<br>
@@ -22,7 +22,7 @@ I started the Makers bootcamp on the 4th of September. I will be tracking my lea
 - I can learn anything by myself<br>
 - I manage my own wellbeing
 
-<h2>My Goals during the Cloud Engineering course (Week 8 to Week 16):</h2>
+<h2>My Goals during the Cloud Engineering course (Week 9 to Week 16):</h2>
 - Applying an understanding of modern architectures<br>
 - Applying best-practice DevOps techniques<br>
 - Applying an understanding of at least two out of the three main Cloud providers<br>
