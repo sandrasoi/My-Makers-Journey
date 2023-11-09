@@ -25,3 +25,8 @@ I then learned to set up a Cloud Formation stack. Cloud Formation is used to bui
 I set up Jenkins on my instance which is a tool that connects to a GitHub repository and when the repository is updated, Jenkins runs tests and if they pass, integrate the changes to the S3 bucket. It was a good challenge as the instructions suggested using a tool called dnf to download Java, however, after some research my pair and I discovered that the operating system that we were using (Amazon Linux 2) was not compatible with dnf and we had to use another tool called yum to install Java. Java was necessary as this is what Jenkins runs on. 
 
 <h3>Wednesday 8th November</h3>
+
+Today was spent setting up the Pipeline that connected GitHub to Jenkins and my EC2 instance. This was a bit of a challenge as it required setting up AWS credentials and GitHub credentials to establish a connection. I also set up a webhook which means whenever there is a push to GitHub repository, GitHub informs Jenkins of this change. My next step is to learn how Jenkins can then update this change in my S3 bucket.
+
+<h3>Thursday 9th November</h3>
+
