@@ -30,3 +30,4 @@ Today was spent setting up the Pipeline that connected GitHub to Jenkins and my 
 
 <h3>Thursday 9th November</h3>
 
+I learned to set up a lambda function on AWS and then an API endpoint. I then linked this to my static page to allow the function to be performed. 
