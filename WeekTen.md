@@ -31,3 +31,9 @@ Today was spent setting up the Pipeline that connected GitHub to Jenkins and my 
 <h3>Thursday 9th November</h3>
 
 I learned to set up a lambda function on AWS and then an API endpoint. I had to set up CORS which give permissions only to a site I specify to be able to access the lambda function. I then linked this to my static page to allow the function to be performed. I learned an important lesson which was that CORS needs access to the S3 bucket in which the site is located not the site itself. This is because when permissions are given to the bucket, lambda can list of the elements and select the correct one but when permissions are only set for the site, lambda can't list all the files and can't find the correct one. 
+
+<h3>Friday 10th November</h3>
+
+This is the [diagram](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/project_summary_diagram.png) we have worked on throughout this week to visualise what is happening. 
+
+
