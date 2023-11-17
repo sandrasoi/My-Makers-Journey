@@ -24,6 +24,6 @@ I created the code required to push files from github to bucket. I created IAM r
 A lot of today was spent figuring out how codedeploy works, what the codedeploy agent does and how to push files from the bucket to ec2 instance. We figured out that codedeploy doesn't have a trigger to start deployment to ec2 instance. 
 
 <h3>Thursday 16th November</h3>
-Deploying from bucket to EC2 instance. Figured out the code after several errors. However, now even though codedeploy picked it up, it's not working. 
+Deploying from bucket to EC2 instance. We figured out that is required for codedeploy to start Figured out the code after several errors. However, now even though codedeploy picked it up, it's not working.  
 
 <h3>Friday 17th November</h3>
