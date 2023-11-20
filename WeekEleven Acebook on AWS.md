@@ -1,7 +1,7 @@
 <h1>Week11 Acebook on AWS</h1>
 
 <h2>Overview of the week:</h2>
-- You'll work in teams to build your own CI-CD solution and to deploy an existing application using different AWS services.
+- You'll work in teams to build your own CI-CD solution and to deploy an existing application using different AWS services.<br>
 - You'll organise your own work based on the goals for the week
 
 <h2>Goals:</h2>
