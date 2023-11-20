@@ -21,9 +21,11 @@ The next step was to set up the EC3 bucket. I diagrammed the process of pushing 
 
 I created the code required to push files from github to bucket. I created IAM roles and users to give permission to those users to access the bucket and ec2 instance.
 
-A lot of today was spent figuring out how codedeploy works, what the codedeploy agent does and how to push files from the bucket to ec2 instance. We figured out that codedeploy doesn't have a trigger to start deployment to ec2 instance. 
+A lot of today was spent figuring out how codedeploy works, what the codedeploy agent does and how to push files from the bucket to ec2 instance. We figured out that codedeploy doesn't have a trigger to start deployment to ec2 instance. We researched about the trigger and realised we need to add specific deployment code. 
 
 <h3>Thursday 16th November</h3>
-Deploying from bucket to EC2 instance. We figured out that is required for codedeploy to start Figured out the code after several errors. However, now even though codedeploy picked it up, it's not working.  
+Today we spent implementing the code we found to deploy the bucket to the EC2 instance. We got several different errors during our deployment efforts and debugged each one. One of the last errors that we did not spot despite working in a group of 3 was a lack of a space at the end of a sentence and before a forward slash. This made me learn a really valuable lesson of looking at formatting patters in code and make sure everything is correct. Once we added this space, codedeploy was triggered and a deployment attempt started. This, however, still did not work in setting up the instance. We continued working on this the next day. 
 
 <h3>Friday 17th November</h3>
+
+Today we spent time diagramming the problem and redoing the whole process to really understand what was happening. This helped us as we forgot how codedeploy talks with the EC2 instance and how the deployment occurs. When codedeploy is set up, we give it the key-value pair associated with the instance, and we also set up codedeploy agent on the instance. We checked that codedeploy works properly on the instance to make sure that is not the problem. Altough all this troubleshooting and diagramming was really useful, it still didn't help us figure out our problem and with the module coming to an end, we had a final workshop to go through all the steps and figure out where we went wrong. 
