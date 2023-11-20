@@ -5,18 +5,18 @@
 By the end of the week, the goal is to be able to answer "yes" to the week's primary questions:
 
 <h3>Containerisation</h3>
-Can you explain the basics of how Docker works? In particular:
-- What a Docker container is
-- What a Docker image is
-- What containers are useful for
-- What a Dockerfile is used for
-- What Docker Hub is used for
+Can you explain the basics of how Docker works? In particular:<br>
+- What a Docker container is<br>
+- What a Docker image is<br>
+- What containers are useful for<br>
+- What a Dockerfile is used for<br>
+- What Docker Hub is used for<br>
 - Can you use Docker to containerise a simple web app?
 
-<h3>Using the Cloud</h3>
-- Can you illustrate a deployment process using a diagram?
-- Can you follow an effective process for learning to use a new Cloud service?
-- Can you deploy a containerised web app to AWS?
+<h3>Using the Cloud</h3><br>
+- Can you illustrate a deployment process using a diagram?<br>
+- Can you follow an effective process for learning to use a new Cloud service?<br>
+- Can you deploy a containerised web app to AWS?<br>
 - Can you gain visibility into your deployed application using logging and telemetry?
 
 <h3>Monday 30th October</h3>
