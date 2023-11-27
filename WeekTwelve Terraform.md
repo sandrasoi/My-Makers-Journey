@@ -26,6 +26,13 @@ Today I looked through documentation and tutorials for Terraform to understand h
 
 <h3>Wednesday 22nd November</h3>
 
-Now that we understood the basics of Terraform, we started setting up our project. We created a GitHub CI pipeline. We first planned what steps were required to run it. This included installing terraform on the workflow, adding AWS credentials so that the S3 bucket storing Terraform states could be accessed and running tests such as terraform validate and terraform plan. To use better practise, we created a workflow that can be referenced for the CI pipeline and CD pipeline. When we did attempt this, we ran issues into the credentials no longer being recognised. After some research we figured out that they have to be declared globally and set as environment variables of the referened workflow.
+Now that we understood the basics of Terraform, we started setting up our project. We created a GitHub CI pipeline. We first planned what steps were required to run it. This included installing terraform on the workflow, adding AWS credentials so that the S3 bucket storing Terraform states could be accessed and running tests such as terraform validate and terraform plan. To use better practise, we created a workflow that can be referenced for the CI pipeline and CD pipeline. When we did attempt this, we ran issues into the credentials no longer being recognised. After some research we figured out that they have to be declared globally and set as environment variables of the referenced workflow.
 
 <h3>Thursday 23rd November</h3>
+
+At the beginning of the day, we had a stand up to discuss what we will cover in the next sprint. We agreed that in order to finish the project on time and still learn the relevant content, we would split into pairs and work on different tickets. My pair and I created the elastic beanstalk application using Terraform and the other pair created the ECR that would store our docker image of the app using Terraform. They also created the RDS to store data. This went well and it helped me understand in better detail how Terraform works. The final step to have the infrastructure set up We managed to get all the infrastructure set up in order to deploy our application.
+
+<h3>Friday 24th November</h3>
+
+For our final day, in order to deploy the application
+The next step was to build a docker image of our app and store it in our ECR. 
