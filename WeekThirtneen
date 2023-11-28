@@ -1,0 +1,18 @@
+<h1>Week12 Terraform</h1>
+
+<h2>Goals:</h2>
+
+By the end of the week, the goal is to be able to answer "yes" to the week's primary questions:
+- Can you explain what Container Orchestration is?
+- Can you explain what problems Container Orchestration solves and what its main benefits are?
+- Can you use Kubernetes to deploy and manage simple applications running on a cluster?
+- Can you diagram the Kubernetes cluster architecture and the different pieces that take part in it?
+- Can you use EKS to run a Kubernetes cluster on AWS?
+- Can you describe the main differences between running your own K8s cluster as opposed to using a Cloud service like EKS?
+
+
+<h3>Monday 27th November</h3>
+
+Today we started a new module on Kubernates. I did a lot of research independently and in my project group to understand what Kubernates does. 
+
+<h3>Tuesday 28th November</h3>
