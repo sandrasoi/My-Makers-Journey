@@ -1,4 +1,4 @@
-<h1>Week12 Terraform</h1>
+<h1>Week14 </h1>
 
 <h2>Goals:</h2>
 
@@ -11,8 +11,17 @@ By the end of the week, the goal is to be able to answer "yes" to the week's pri
 - Can you describe the main differences between running your own K8s cluster as opposed to using a Cloud service like EKS?
 
 
-<h3>Monday 27th November</h3>
+<h3>Monday 4th December</h3>
 
-Today we started a new module on Kubernates. I did a lot of research independently and in my project group to understand what Kubernates does. 
 
-<h3>Tuesday 28th November</h3>
+<h3>Tuesday 5th December</h3>
+
+
+<h3>Wednesday 6th December</h3>
+
+
+<h3>Thursday 7th December</h3>
+
+<h3>Friday 8th December</h3>
+
+
