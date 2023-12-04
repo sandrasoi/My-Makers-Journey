@@ -33,4 +33,8 @@ Finally, we deployed our application by creating a deployment yaml file which sp
 
 <h3>Friday 1st December</h3>
 
-Today we exposed our app using ingress and set up a loadbalancer to manage traffic to the different pods. This did not work for us.
+Today we exposed our app using a loadbalancer which also managed traffic to the different pods. We initially had issues in setting this up. After comparing our deployment file and the loadbalancer file, we noticed that the name of the app did not match. Once we changed this, we were able to access our application in the browser. We also did a port forwarding command to expose one of the pods and access the application locally using "kubectl port-forward deployment/<name of deployment> 8000:8080" command. This marked the completion of our project.
+
+We delved deeper into how Kubernates worked by experimenting in deleting pods, nodes and instances that nodes are running on. When a pod is deleted using kubectl, another pod is created. When a an instance is deleted from AWS, a new instance is created. However, when a node is deleted using kubectl, a new one is not generated. 
+
+This was a challenging week as I found it difficult to make sense of the different concepts initially. It really helped me to create diagrams to visualise what is happening and how different things interact. This was especially useful when I was learning how a loadbalancer works. Working in a team meant I could verbalise my understanding and check it against my peers. This week was also a good opportunity to practise terraform and using GitHub actions. 
