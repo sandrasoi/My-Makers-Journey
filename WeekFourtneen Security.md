@@ -12,6 +12,11 @@ I have focused today on understanding different security risks in an application
 
 <h3>Tuesday 5th December</h3>
 
+Today I worked in a pair to go through a node.js app and identify security issues. I did this by looking at the issues which I researched yesterday and using different tools such as bearer and zap. For example, when my account is accessed, it includes a number in the URL, changing this number gives me access to other users details. The session cookie encryption is not secure, it uses the key 'SECRET' to encrypt which a hacker can guess. Bearer suggested using Helmet as middleware to obscure some header details. 
+
+Looking at the infrastructure, the S3 buckets that store website assets and the logs are publicly available. The permissions associated with the buckets allow for any changes to the bucket. Similarly, the EC2 instance is not secure as it allows access from all ports. Loadbalancer also allows traffic from all when it should only allow the EC2 instance access. It also uses HTTP 80 which is not as secure as HTTPS 443.
+
+This was a good exercise to identify various security issues.
 
 <h3>Wednesday 6th December</h3>
 
