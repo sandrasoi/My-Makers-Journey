@@ -22,9 +22,10 @@ This was a good exercise to identify various security issues.
 
 Today we learned about threat modelling, STRIDE and then created a [threat modelling diagram](https://github.com/sandrasoi/My-Makers-Journey/blob/main/My-Programs/Threat%20Modelling%20-%20Payments%20page.jpg) to identify potential threats, their risk level and how to resolve them. I learned about moving security to the left which means thinking about security as early as possible in the development cycle. 
 
-
 <h3>Thursday 7th December</h3>
+
+Today I was given a solo project which was an app that registered and logged in users. My task was to identify the security threats and fix them. It was a good opportunity for me to put into practise what I had learned this week and use tools to help me identify issues. 
 
 <h3>Friday 8th December</h3>
 
-
+I carried out working on this project and identified further problems. 
